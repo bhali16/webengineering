@@ -1,0 +1,56 @@
+#main{
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid blueviolet;
+    margin: 20px;
+    padding: 10px;
+}
+#logo img{
+    float: left;
+    width: 100px;
+    padding: 20px;
+}
+
+#header{
+    border: 2px solid pink;
+    padding: 5px;
+    text-align: center
+}
+
+#signup-form{
+    width: 450px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(4, 163, 110);
+}
+
+#signup-form input[type="text"],input[type="password"]
+{
+    border-radius: 15px;
+    border: 2px solid rgb(4, 163, 110);
+    padding: 10px;
+    margin: 10px;
+}
+
+#signup-form select,option
+{
+    border-radius: 15px;
+    border: 2px solid rgb(4, 163, 110);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#btn{
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(4, 163, 110);
+    color: rgb(4, 163, 110);
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+}
+
+#btn:hover{
+    background-color:rgb(4, 163, 110);
+    color: white;
+}

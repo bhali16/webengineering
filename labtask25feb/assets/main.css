@@ -1,0 +1,78 @@
+body{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    padding: 20px;
+    background-color: #115ea6;
+    color: white;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+
+}
+#logoimg img{
+    width: 120px;
+    border-radius: 60%;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background: #115ea6;
+    color: white;
+    width: 100px;
+    font-family: 'Cairo', sans-serif;
+}
+
+button:hover{
+    background: white;
+    color: #115ea6;
+}
+
+#menu-bar{
+    background-color: #49277b;
+    line-height: 30px;
+    border-radius: 20px;
+
+
+}
+#menu-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 8px;
+}
+
+#menu-bar ul li a{
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#menu-bar ul li a:hover{
+    color: rgba(228, 230, 236, 0.849);
+    font-weight: bold;
+
+    
+}
+

@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div id="logo">
+          <img src="assets/images/logo.png" alt="bhali.net" />
+        </div>
+        <div id="logo-text">
+          <h1>Signup Form</h1>
+        </div>
+      </div>
+      <div id="signup-form">
+        <form action="thanks.html">
+          <table>
+            <tr>
+              <td>Name</td>
+              <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td><input type="password" name="pass" /></td>
+            </tr>
+            <tr>
+              <td>Department</td>
+              <td>
+                <select name="depatment">
+                  <option value="computerscience">Computer Science</option>
+                  <option value="electrical">Electrical</option>
+                  <option value="maths">Mathematics</option>
+                  <option value="management">Management</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>
+                <input type="radio" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" />
+                <label for="male">Female</label>
+              </td>
+            </tr>
+            <tr>
+              <td>Subjects</td>
+              <td>
+                <input type="checkbox" name="english" />
+                <label for="english">English</label>
+                <input type="checkbox" name="mathematics" />
+                <label for="mathematics">Mathematics</label>
+                <input type="checkbox" name="progamming" />
+                <label for="progamming">Progamming</label>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="submit" value="Submit" id="btn" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

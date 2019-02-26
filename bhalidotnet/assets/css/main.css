@@ -1,0 +1,31 @@
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    background-color: rgb(9, 177, 121);
+    color: rgb(223, 219, 219);
+}
+
+#site-name{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(9, 177, 121);
+    padding: 10px;
+    color: white;
+}
+
+#site-name:hover{
+    border: 5px solid rgb(9, 177, 121);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(9, 177, 121);
+}

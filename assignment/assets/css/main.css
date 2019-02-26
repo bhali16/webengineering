@@ -1,0 +1,45 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #ed4035;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    border: 3px solid #ed4035;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #ed4035;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 100px;
+}

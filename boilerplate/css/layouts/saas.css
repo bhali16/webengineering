@@ -1,0 +1,10 @@
+/* TODO: code Slack layout */
+
+
+/* Some very basic design for Slack avatars */
+.avatar-slack {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
