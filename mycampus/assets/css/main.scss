@@ -1,6 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
-
 body{
-    background-color: blueviolet;
     font-family: 'Nunito';
+}
+
+header{
+    width: 90%;
+    height: 100px;
+    background-color: #473080;
+    display: flex;
+    align-content: space-around;
+    margin: 5% 0px 0px 5%;
+
+    a{
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    li{
+        font-size: 30px;
+        margin-left: 10px;
+        padding: 15px;
+        flex-wrap: wrap-reverse;
+    }
+
+    button{
+        font-size: 30px;
+        border-radius: 15px;
+        padding: 5px;
+    }
 }
