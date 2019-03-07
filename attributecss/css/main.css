@@ -1,0 +1,71 @@
+body{
+    margin: 5% 10% 0 10%;
+}
+
+.main{
+    font-family: 'Montserrat';
+    border: 6px solid;
+    padding: 10px;
+}
+
+ul[title]
+{
+    list-style-type: none;
+    display: flex;
+}
+
+a[name]
+{
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a[style]{
+    background-color: rgb(23, 201, 76);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+a[target]{
+    color: green;
+}
+
+a[href*="google"] {
+    color: chocolate;
+    font-weight: bold;
+}
+
+i[class]{
+    color: gold;
+}
+
+p[id="para"]
+{
+    text-align: center;
+}
+
+
+p[id="slogan"]
+{
+    text-align: center;
+}
+
+span{
+    font-size: 30px;
+}
+
+h1::before
+    {
+        width: 10rem;
+        height: 1.2rem;
+        background: #DFF5FF;
+        position: absolute;
+        left: 5px;
+        top: 8px;
+        content: "";
+        z-index: -1;
+    }
