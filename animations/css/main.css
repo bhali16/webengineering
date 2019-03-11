@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:300,regular,600,700);
+
+#main {
+	font-family : Montserrat;
+}
+
+
+.content{
+    margin: 50px;
+    color: white;
+    font-weight: 300;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .content{
+        font-size: 60px;
+        display: block;
+        margin: 50px 50px;
+    }
+}
+
+#signature {
+    background: #f96855;
+    height: 40VH;
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.box {
+    width: 300px;
+    height: 350px;
+    border-radius: 40%;
+    background-image: linear-gradient(10deg, #ca1d57 10%, #9eaca3 142%);    
+    transition-duration: 3000ms;
+
+}
+
+.box:hover {
+    
+    transform: rotate(360deg);
+    width: 350px;
+    border-radius: 50%;
+
+}
