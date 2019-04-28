@@ -1,0 +1,63 @@
+*{
+    margin: 10px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: #333;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    height: 50px;
+    transform: translate(-50% -50%);
+    display: flex;
+    align-items: center;
+}
+.obj{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: blueviolet;
+    border-radius: 17px;
+    animation:loading 0.5s infinite;
+}
+
+.obj:nth-child(2){
+    animation-delay: 0.1s;
+}
+.obj:nth-child(3){
+    animation-delay: 0.1s,
+}
+.obj:nth-child(4){
+    animation-delay: 0.4s,
+}
+.obj:nth-child(5){
+    animation-delay: 0.4s,
+}
+.obj:nth-child(6){
+    animation-delay: 0.4s,
+}
+.obj:nth-child(7){
+    animation-delay: 0.1s,
+}
+.obj:nth-child(8){
+    animation-delay: 0.1s,
+}
+
+@keyframes loading{  
+  0%{
+    height: 0;
+     }
+    50%{
+        height: 40px;
+    }
+    100%{
+        height: 0;
+    }
+}

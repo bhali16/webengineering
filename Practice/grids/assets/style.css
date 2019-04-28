@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+#main {
+  margin: 5%;
+  font-family: 'Nunito';
+  size: 30px;
+}
+
+.mygrids {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background: blueviolet;
+  color: white;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid-item.medium {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.grid-item.large {
+  grid-row: span 5;
+  grid-column: span 3;
+}
+
+.grid-item.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.grid-item.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
+.grid-item.small {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+/*# sourceMappingURL=style.css.map */

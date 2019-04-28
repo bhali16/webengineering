@@ -109,6 +109,11 @@ body {
     &.medium {
         grid-row: span 2;
         grid-column: span 2;
+        ul{
+            li{
+                
+            }
+        }
     }
 
     &.large {

@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+  }
+  
+  .content {
+    background-color: #ee6352;
+    width: 70vw;
+    padding: 20px;
+    box-shadow: 0 0 3em rgba(0,0,0,.15);
+    color: white;
+  }
+  
+  .title {
+    margin: 0 0 .5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: .8;
+  }
+
+  p{
+    font-size: 20px;
+  }

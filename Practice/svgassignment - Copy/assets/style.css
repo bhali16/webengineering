@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 2%;
+    display: block;
+
+}
+.container{
+    margin-right: 30px;
+    width: 50%;
+    border: 10px solid gold;
+    background: #18222F;
+}
+
+.day{
+    margin-top: 30px;
+    width: 50%;
+    border: 10px solid brown;
+    background: white;
+}

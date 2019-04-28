@@ -1,0 +1,67 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-size: 200px;
+    color: white;
+ 
+}
+
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+
+
+.one{
+    grid-column: span 2;
+}
+
+@media only screen and (max-width:600px){
+
+}
+
+.div-3 {
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one{
+    grid-row: span 1;
+    grid-column: span 6;
+}
+
+#two{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+#three{
+    grid-row: span 1;
+    grid-column: span 1;
+    background: red;
+}
+
+#four{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+#five{
+    grid-row: span 1;
+    grid-column: span 1;
+    background: red;
+
+}
+
+#six{
+    grid-row: span 1;
+    grid-column: span 6;
+    background: red;
+}

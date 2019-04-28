@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <title>Basic Title</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div>
+                <svg width="600px" height="200px">
+                    <circle id="moon" r="30" cx="400" cy="-100" fill="white" />
+                    <circle id="sa-circle" r="5" cx="150" cy="-200" fill="white" />
+                    <circle id="sb-circle" r="5" cx="250" cy="-300" fill="white" />
+                    <circle id="sc-circle" r="5" cx="550" cy="-500" fill="white" />
+                    <polygon points="220,20 300,210 170,220 3,234" style="fill:#333;stroke-width:2;" />
+                    <polygon points="620,30 600,210 470,220 23,234" style="fill:#333;;stroke-width:1;" />
+                    <polygon points="320,20 400,210 170,220 3,234" style="fill:#333;stroke-width:1;" />
+                    <animate xlink:href="#moon" attributeName="cy" from="180" to="35" dur="5s" begin="0s" repeatCount="1"
+                        fill="freeze" id="circ-anim" />
+                    <animate xlink:href="#sa-circle" attributeName="cy" from="180" to="30" dur="5s" begin="0s"
+                        repeatCount="1" fill="freeze" id="circ-anim" />
+
+                    <animate xlink:href="#sb-circle" attributeName="cy" from="180" to="10" dur="5s" begin="0s"
+                        repeatCount="1" fill="freeze" id="circ-anim" />
+
+                    <animate xlink:href="#sc-circle" attributeName="cy" from="180" to="20" dur="5s" begin="0s"
+                        repeatCount="1" fill="freeze" id="circ-anim" />
+                </svg>
+
+            </div>
+
+
+        </div>
+        <div class="day">
+            <svg width="600px" height="200px">
+                <circle id="sun" r="30" cx="350" cy="-100" fill="#ffd700" />
+                <circle id="sa-circle" r="5" cx="150" cy="-200" fill="white" />
+                <circle id="sb-circle" r="5" cx="250" cy="-300" fill="white" />
+                <circle id="sc-circle" r="5" cx="550" cy="-500" fill="white" />
+                <polygon points="220,20 300,210 170,220 3,234" style="fill:#333;stroke-width:2;" />
+                <polygon points="620,30 600,210 470,220 23,234" style="fill:#333;;stroke-width:1;" />
+                <polygon points="320,20 400,210 170,220 3,234" style="fill:#333;stroke-width:1;" />
+                <animate xlink:href="#sun" attributeName="cy" from="180" to="35" dur="5s" begin="0s" repeatCount="1"
+                    fill="freeze" />
+                <animate xlink:href="#sa-circle" attributeName="cy" from="180" to="30" dur="5s" begin="0s" repeatCount="1"
+                    fill="freeze" />
+
+                <animate xlink:href="#sb-circle" attributeName="cy" from="180" to="10" dur="5s" begin="0s" repeatCount="1"
+                    fill="freeze" />
+
+                <animate xlink:href="#sc-circle" attributeName="cy" from="180" to="20" dur="5s" begin="0s" repeatCount="1"
+                    fill="freeze" />
+            </svg>
+
+        </div>
+    </div>
+</body>
+
+</html>
