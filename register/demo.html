@@ -1,0 +1,21 @@
+<form method="post"  enctype="multipart/form-data" action="regis_submit.php">
+	<h2>Registration Form</h2>
+	<?php if(isset($_GET['msg']))
+	{
+		echo "<p>Your registration is  successfully done</>";
+			}
+		?>
+		<input type="text"  name="n" placeholder="Enter Your name"/>
+		<input type="email"  name="e" placeholder="Enter Your email"/>
+		<input type="number"  name="nm" placeholder="Enter Your mobile number"/>
+		<input type="password"  name="p" placeholder="Enter Your Password"/>
+		<label>Gender</label>
+		<input type="radio" name="gender" value="Male"/>Male
+		<input type="radio" name="gender" value="Female"/>Female
+		<label>Select Type</label>
+		<select name = "role">
+			<option name="role" value = "Student">one</option>
+			<option name="role" value = "Teacher">two</option>
+		</select>
+		<input type="submit"  name="submit" value="Submit"/>
+	</form>
